@@ -37,4 +37,40 @@ Butona basıldığında bir eylemin tetiklenmesi ve sitenin canlı hissettirmesi
 
 > **Prompt:**
 > "Şimdi sitemize JavaScript ile etkileşim kazandıralım. HTML dosyamızdaki 'Beni Neşelendir!' butonuna tıklandığında (click event listener), sayfadaki boş metin alanında rastgele bir SüngerBob repliği belirmesini istiyorum. JavaScript içinde şu replikleri içeren bir dizi (array) oluştur:
-> - 'Ben hazırım!
+> - 'Ben hazırım! Ben hazırım! Ben hazırım!'
+> - 'Mayonez bir enstrüman mıdır?'
+> - 'Kral Taçsız da Kraldır!'
+> - 'Eğer bugün çalışmazsam, yarın çalışacak bir işim olmayabilir.'
+> - 'Her şey daha iyi olacak Bay Yengeç!'
+> Butona her basıldığında bu repliklerden biri rastgele seçilsin ve ekrana küçük bir opaklık (fade-in) animasyonu ile gelsin."
+
+---
+
+## 🚀 İleri Seviye ve Optimizasyon Promptları
+
+Projeniz çalıştıktan sonra kod kalitesini artırmak veya karşılaştığınız sorunları çözmek için aşağıdaki spesifik kalıpları kullanabilirsiniz.
+
+### 🔍 Hata Ayıklama (Debugging)
+Eğer kodunuz tarayıcıda çalışmazsa veya konsolda kırmızı bir hata görürseniz:
+> **Prompt:**
+> "Yazdığın JavaScript kodu tarayıcıda 'Uncaught TypeError: Cannot read properties of null (reading "addEventListener")' hatası veriyor. HTML kodumun yapısı şu şekilde: [HTML Kodunuzu Yapıştırın]. Bu hatanın backend perspektifinden mantığı nedir ve frontend tarafında nasıl düzeltebilirim?"
+
+### 🧼 Refactoring ve Temiz Kod (Clean Code)
+Kodun okunabilirliğini artırmak ve modern standartlara çekmek için:
+> **Prompt:**
+> "Yazdığın CSS kodunu daha modüler hale getirmek için CSS Değişkenleri (Variables) kullanabilir misin? Ayrıca JavaScript kodunu modern ES6+ standartlarına (arrow functions, const/let kullanımı) göre optimize et ve fonksiyonların görevlerini yorum satırlarıyla açıkla."
+
+---
+
+## ✅ Proje Başarı Kriterleri Kontrol Listesi
+
+AI çıktılarını projenize entegre ettikten sonra teslim etmeden önce son kontrollerinizi yapın:
+
+- [ ] **Çalışabilirlik:** `index.html` dosyası tarayıcıda çift tıklandığında sorunsuz açılıyor mu?
+- [ ] **Etkileşim:** Butona tıklandığında JavaScript tetikleniyor ve replikler değişiyor mu?
+- [ ] **Üçlü Entegrasyon:** Projede HTML (yapı), CSS (stil) ve JavaScript (mantık) aktif olarak kullanılmış mı?
+- [ ] **Animasyon:** En az bir adet CSS `@keyframes` veya geçiş efekti (transition) görünür şekilde çalışıyor mu?
+- [ ] **Ekran Uyumluluğu:** Tarayıcı penceresi küçültüldüğünde elemanlar üst üste binmeden düzgünce hizalanıyor mu?
+
+---
+*Bu kılavuz, yapay zekayı doğru yönlendirerek sıfırdan frontend geliştirmeyi deneyimlemek isteyen tüm yazılımcılar için hazırlanmıştır. Bikini Kasabası'na hoş geldiniz!* 🍍
